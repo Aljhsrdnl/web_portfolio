@@ -6,6 +6,9 @@ import animationData from "../assets/bg-lottiie.json";
 //picture
 import pic from "../assets/me.png";
 
+//icons
+import { FiDownload } from "react-icons/fi";
+
 AOS.init();
 
 const Home = () => {
@@ -19,7 +22,7 @@ const Home = () => {
     },
   };
   return (
-    <main className="flex items-center">
+    <main className="flex items-center flex-grow">
       <div
         className="w-3/4 lg:w-1/2"
         data-aos="fade-right"
@@ -33,16 +36,17 @@ const Home = () => {
         </p>
         <p className="text-primary-300 md:text-lg mb-8 lg:mb-10">
           I like to design the UI of mobile and desktop web applications and I
-          fancy building these designs to web apps using React. I am currently
-          on my 4th year at West Visayas State University taking up BS Computer
-          Science.
+          fancy building these designs to web apps using React.js. I am
+          currently on my 4th year at West Visayas State University taking up BS
+          Computer Science.
         </p>
         <div>
-          <button className="py-2 px-4 bg-secondary-500 rounded-md shadow text-primary-900 font-bold border border-secondary-500 mr-6 hover:border-secondary-600 hover:bg-secondary-600 transition-all ease">
+          <button className="py-2 px-4 w-44 bg-secondary-500 rounded-md shadow text-primary-900 font-bold border border-secondary-500 mr-6 hover:border-secondary-600 hover:bg-secondary-600 transition-all ease">
             GET IN TOUCH
           </button>
-          <button className="py-2 px-4 bg-transparent border border-secondary-500 text-secondary-500 rounded-md shadow font-medium hover:bg-secondary-500 hover:text-primary-900 transition-all ease-in">
-            DOWNLOAD CV
+          <button className="py-2 px-4 w-44 bg-transparent border border-secondary-500 text-secondary-500 rounded-md shadow font-medium hover:bg-secondary-500 hover:text-primary-900 transition-all ease-in">
+            <FiDownload className="inline mr-2" />
+            RESUME
           </button>
         </div>
       </div>
@@ -54,8 +58,8 @@ const Home = () => {
         data-aos="fade-left"
         data-aos-duration="1800"
       >
-        <div className="w-96 h-96 bg-primary-200 rounded-full absolute opacity-10 top-10 right-5 -z-20"></div>
-        <img src={pic} className="z-30" />
+        <div className="w-80 h-80 bg-primary-200 rounded-full absolute opacity-10 top-10 right-5 -z-20"></div>
+        <img src={pic} className="z-30 w-96 h-96 block mx-auto" />
       </div>
     </main>
   );

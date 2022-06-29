@@ -6,13 +6,10 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 function App() {
   return (
-    <div className="h-screen">
-      <div className="h-fit">
-        <Navbar />
-      </div>
-      <div className="h-full flex items-center">
-        <Home />
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+
+      <Home />
     </div>
   );
 }

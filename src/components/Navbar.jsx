@@ -10,7 +10,7 @@ import { FaDribbble, FaBehance, FaInstagram, FaGithub } from "react-icons/fa";
 AOS.init();
 const Navbar = () => {
   return (
-    <nav className="flex items-center w-full">
+    <nav className="flex items-center w-full h-24 relative">
       <div
         className="flex-grow "
         data-aos="fade-down"
