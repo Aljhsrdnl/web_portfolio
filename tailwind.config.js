@@ -31,6 +31,7 @@ module.exports = {
       },
       'white': "#FFFFFF",
       'transparent': 'transparent',
+      'alternate': "#101937",
     }
   },
   plugins: [],
