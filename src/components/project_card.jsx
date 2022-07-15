@@ -22,7 +22,7 @@ const project_card = ({ img, title, desc, link }) => {
             <p className="text-xl md:text-2xl text-secondary-500 font-bold">
               {title}
             </p>
-            <p className="text-sm lg:text-base text-primary-300">{desc}</p>
+            <p className="text-sm lg:text-base text-primary-300 mr-6">{desc}</p>
           </div>
           <div className="bg-transparent rounded-full px-2 py-2 group-hover:bg-secondary-500 transition-all ease-in-out shadow">
             <FiArrowRight className="text-2xl text-primary-300 group-hover:-rotate-45 transition-all ease-in-out   group-hover:text-white" />

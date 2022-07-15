@@ -24,6 +24,12 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <Card
+            img={proj_4}
+            title="rExchange"
+            desc="An online currency exchange converter."
+            link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
+          />
+          <Card
             img={proj_1}
             title="Aquarium"
             desc="A mobile app design for task management."
@@ -37,14 +43,8 @@ const Projects = () => {
           />
           <Card
             img={proj_3}
-            title="Online Course Website Design"
-            desc=""
-            link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
-          />
-          <Card
-            img={proj_4}
-            title="rExchange"
-            desc="An online currency exchange converter."
+            title="SeekKnowledge"
+            desc="A design for a website offering online courses."
             link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
           />
         </div>
