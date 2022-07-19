@@ -2,10 +2,10 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 //projects
-import proj_1 from "../assets/proj1-01.png";
-import proj_2 from "../assets/GoEat-01.jpg";
-import proj_3 from "../assets/proj03.jpg";
-import proj_4 from "../assets/rExchange-01.jpg";
+import proj_1 from "../assets/aquarium.jpg";
+import proj_2 from "../assets/goeat.jpg";
+import proj_3 from "../assets/seek_knowledge.jpg";
+import proj_4 from "../assets/r_exchange.jpg";
 
 import Card from "./project_card";
 
