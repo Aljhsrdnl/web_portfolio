@@ -27,7 +27,7 @@ const Projects = () => {
             img={proj_4}
             title="rExchange"
             desc="An online currency exchange converter."
-            link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
+            link="https://vercel.com/aljhsrdnl/exchange-rate-app"
           />
           <Card
             img={proj_1}
@@ -45,7 +45,7 @@ const Projects = () => {
             img={proj_3}
             title="SeekKnowledge"
             desc="A design for a website offering online courses."
-            link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
+            link="https://dribbble.com/shots/17430547-Online-Course-Website-Design"
           />
         </div>
       </div>
