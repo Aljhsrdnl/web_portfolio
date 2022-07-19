@@ -27,7 +27,7 @@ const Projects = () => {
             img={proj_4}
             title="rExchange"
             desc="An online currency exchange converter."
-            link="https://vercel.com/aljhsrdnl/exchange-rate-app"
+            link="https://exchange-rate-o01208xtb-aljhsrdnl.vercel.app/"
           />
           <Card
             img={proj_1}
