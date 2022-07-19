@@ -45,13 +45,17 @@ const Home = () => {
             <button className="py-2 px-4 w-40 bg-secondary-500 rounded-md shadow text-primary-900 font-bold border border-secondary-500 mr-6 hover:border-secondary-600 hover:bg-secondary-600 transition-all ease mb-4">
               GET IN TOUCH
             </button>
-            <button className="py-2 px-4 w-40 bg-transparent border border-secondary-500 text-secondary-500 rounded-md shadow font-medium hover:bg-secondary-500 hover:text-primary-900 transition-all ease-in">
+            <button
+              // className="py-2 px-4 w-40 bg-transparent border border-secondary-500 text-secondary-500 rounded-md shadow font-medium hover:bg-secondary-500 hover:text-primary-900 transition-all ease-in"
+              className="text-gray-100 border w-40 border-gray-200 rounded-md py-2 px-4"
+              title="Not Available"
+            >
               <FiDownload className="inline mr-2" />
               RESUME
             </button>
           </div>
         </div>
-        <div className="absolute top-20 right-10 opacity-50 z-0">
+        <div className="absolute top-20 right-10 opacity-50 -z-20">
           <Lottie options={defaultOptions} height={600} width={600} />
         </div>
         <div

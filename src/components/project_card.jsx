@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 AOS.init();
 const project_card = ({ img, title, desc, link }) => {
   return (
-    <a href={link}>
+    <a href={link} target="_blank">
       <div
         className="card group cursor-pointer"
         data-aos="fade-up"

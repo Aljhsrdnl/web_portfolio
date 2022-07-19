@@ -13,7 +13,7 @@ AOS.init();
 const Projects = () => {
   return (
     <section id="portfolio" className="bg-alternate">
-      <div className="max-w-7xl mx-auto py-24  px-4 md:px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto py-24 md:py-36 lg:py-52 px-4 md:px-8 lg:px-16">
         <h2
           className="text-4xl lg:text-5xl font-semibold text-primary-100 mb-16"
           data-aos="fade-up"
