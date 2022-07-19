@@ -16,7 +16,7 @@ const Contact = () => {
           Let's work together
         </h1>
         <p
-          className="text-3xl md:text-4xl  text-secondary-500 underline block text-center mb-8"
+          className="text-2xl md:text-4xl  text-secondary-500 underline block text-center mb-8"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
@@ -29,7 +29,7 @@ const Contact = () => {
             target="_blank"
           >
             <FaGithub
-              className="text-primary-400 text-3xl md:text-4xl cursor-pointer"
+              className="text-primary-400 text-2xl md:text-3xl cursor-pointer"
               data-aos="fade-down"
               data-aos-delay="2200"
               data-aos-duration="1700"
@@ -41,7 +41,7 @@ const Contact = () => {
             target="_blank"
           >
             <FaInstagram
-              className="text-primary-400 text-3xl md:text-4xl cursor-pointer"
+              className="text-primary-400 text-2xl md:text-3xl cursor-pointer"
               data-aos="fade-down"
               data-aos-delay="2500"
               data-aos-duration="1700"
@@ -53,7 +53,7 @@ const Contact = () => {
             target="_blank"
           >
             <FaLinkedinIn
-              className="text-primary-400 text-3xl md:text-4xl cursor-pointer"
+              className="text-primary-400 text-2xl md:text-3xl cursor-pointer"
               data-aos="fade-down"
               data-aos-delay="2800"
               data-aos-duration="1700"

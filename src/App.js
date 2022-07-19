@@ -21,7 +21,7 @@ function App() {
       <footer className="h-24 bg-primary-900">
         <div className="  max-w-7xl mx-auto h-full flex justify-center">
           <h1 className="text-white text-center self-center ">
-            2022 © Alejah Sardiniola • All Rights Reserved.
+            2022 © Alejah T. Sardiniola • All Rights Reserved.
           </h1>
         </div>
       </footer>
