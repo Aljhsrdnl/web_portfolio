@@ -6,6 +6,7 @@ import proj_1 from "../assets/aquarium.jpg";
 import proj_2 from "../assets/goeat.jpg";
 import proj_3 from "../assets/seek_knowledge.jpg";
 import proj_4 from "../assets/r_exchange.jpg";
+import proj_5 from "../assets/trivia.jpeg";
 
 import Card from "./project_card";
 
@@ -23,6 +24,12 @@ const Projects = () => {
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <Card
+            img={proj_5}
+            title="Trivia Quiz"
+            desc="An online trivia quiz platform that uses OpenDB API."
+            link="https://trivia-quiz-as.vercel.app/"
+          />
           <Card
             img={proj_4}
             title="rExchange"
