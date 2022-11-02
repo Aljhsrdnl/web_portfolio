@@ -47,11 +47,15 @@ const Home = () => {
             </button>
             <button
               // className="py-2 px-4 w-40 bg-transparent border border-secondary-500 text-secondary-500 rounded-md shadow font-medium hover:bg-secondary-500 hover:text-primary-900 transition-all ease-in"
-              className="text-gray-100 border w-40 border-gray-200 rounded-md py-2 px-4"
-              title="Not Available"
+              className="text-secondary-500 border w-40 border-secondary-500 rounded-md py-2 px-4"
             >
-              <FiDownload className="inline mr-2" />
-              RESUME
+              <a
+                href="https://drive.google.com/file/d/1lrDVRRkPe-2_JxKiqv6fnPMASfuj7ugE/view?usp=sharing"
+                target="_blank"
+              >
+                <FiDownload className="inline mr-2" />
+                RESUME
+              </a>
             </button>
           </div>
         </div>
