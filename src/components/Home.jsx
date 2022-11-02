@@ -37,9 +37,9 @@ const Home = () => {
           </p>
           <p className="text-primary-300 text-base md:text-lg mb-8 lg:mb-10 w-3/4 lg:w-full">
             I like to design the UI of mobile and desktop web applications and I
-            fancy building these designs to web apps using React.js. I am
-            currently on my 4th year at West Visayas State University taking up
-            BS Computer Science.
+            fancy building these designs to web apps using React.js. Moreover,
+            Cybersecurity piques my curiosity. I am currently on my 4th year at
+            West Visayas State University taking up BS Computer Science.
           </p>
           <div className="w-full">
             <button className="py-2 px-4 w-40 bg-secondary-500 rounded-md shadow text-primary-900 font-bold border border-secondary-500 mr-6 hover:border-secondary-600 hover:bg-secondary-600 transition-all ease mb-4">

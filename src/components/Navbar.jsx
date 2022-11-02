@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import logo from "../assets/logo.png";
 
 //icons
-import { FaDribbble, FaBehance, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaDribbble, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 AOS.init();
 const Navbar = () => {
@@ -72,21 +72,7 @@ const Navbar = () => {
             </a>
             <div className="w-0 h-0 top-5 peer-hover:w-12 peer-hover:h-12 bg-secondary-500 rounded-full absolute peer-hover:top-0 z-0 transition-all ease-in"></div>
           </div>
-          {/* <div
-            className="relative flex justify-center items-center w-12 h-12 mr-4"
-            data-aos="fade-down"
-            data-aos-delay="2600"
-            data-duration="1000"
-          >
-            <a
-              href="https://dribbble.com/alejah"
-              className="z-10 peer"
-              target="_blank"
-            >
-              <FaBehance className="text-primary-300 text-xl hover:text-white transition-color ease-in" />
-            </a>
-            <div className="w-0 h-0 top-5 peer-hover:w-12 peer-hover:h-12 bg-secondary-500 rounded-full absolute peer-hover:top-0 z-0 transition-all ease-in"></div>
-          </div> */}
+
           <div
             className="relative flex justify-center items-center w-12 h-12 mr-4"
             data-aos="fade-down"
@@ -99,6 +85,21 @@ const Navbar = () => {
               target="_blank"
             >
               <FaInstagram className="text-primary-300 text-xl hover:text-white transition-color ease-in" />
+            </a>
+            <div className="w-0 h-0 top-5 peer-hover:w-12 peer-hover:h-12 bg-secondary-500 rounded-full absolute peer-hover:top-0 z-0 transition-all ease-in"></div>
+          </div>
+          <div
+            className="relative flex justify-center items-center w-12 h-12 mr-4"
+            data-aos="fade-down"
+            data-aos-delay="2800"
+            data-duration="1000"
+          >
+            <a
+              href="https://www.linkedin.com/in/alejahsardiniola/"
+              className="z-10 peer"
+              target="_blank"
+            >
+              <FaLinkedin className="text-primary-300 text-xl hover:text-white transition-color ease-in" />
             </a>
             <div className="w-0 h-0 top-5 peer-hover:w-12 peer-hover:h-12 bg-secondary-500 rounded-full absolute peer-hover:top-0 z-0 transition-all ease-in"></div>
           </div>
