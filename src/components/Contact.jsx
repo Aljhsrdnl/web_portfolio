@@ -20,7 +20,7 @@ const Contact = () => {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          alejahsrdnl@gmail.com
+          alejah.t.sardiniola@gmail.com
         </p>
         <div className="flex items-center justify-center space-x-6">
           <a
