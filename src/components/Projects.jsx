@@ -7,6 +7,7 @@ import proj_2 from "../assets/goeat.jpg";
 import proj_3 from "../assets/seek_knowledge.jpg";
 import proj_4 from "../assets/r_exchange.jpg";
 import proj_5 from "../assets/trivia.jpeg";
+import proj_6 from "../assets/grades-viewer.jpg";
 
 import Card from "./project_card";
 
@@ -29,6 +30,12 @@ const Projects = () => {
             title="Trivia Quiz"
             desc="An online trivia quiz platform that uses OpenDB API."
             link="https://trivia-quiz-as.vercel.app/"
+          />
+          <Card
+            img={proj_6}
+            title="Grades Viewer"
+            desc="A responsive web application that will allow students of TVC-STNHS to view their grades online."
+            link="https://grades-viewer.vercel.app/"
           />
           <Card
             img={proj_4}
