@@ -1,15 +1,10 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-//projects
-import proj_1 from "../assets/aquarium.jpg";
-import proj_2 from "../assets/goeat.jpg";
-import proj_3 from "../assets/seek_knowledge.jpg";
-import proj_4 from "../assets/r_exchange.jpg";
-import proj_5 from "../assets/trivia.jpeg";
-import proj_6 from "../assets/grades-viewer.jpg";
 
-import Card from "./project_card";
+
+import Card from "./ProjectCard";
+import { projectsData } from "../data/projectsData";
 
 AOS.init();
 const Projects = () => {
@@ -25,42 +20,20 @@ const Projects = () => {
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          <Card
-            img={proj_5}
-            title="Trivia Quiz"
-            desc="An online trivia quiz platform that uses OpenDB API."
-            link="https://trivia-quiz-as.vercel.app/"
-          />
-          <Card
-            img={proj_6}
-            title="Grades Viewer"
-            desc="A responsive web application that will allow students of TVC-STNHS to view their grades online."
-            link="https://grades-viewer.vercel.app/"
-          />
-          <Card
-            img={proj_4}
-            title="rExchange"
-            desc="An online currency exchange converter."
-            link="https://exchange-rate-o01208xtb-aljhsrdnl.vercel.app/"
-          />
-          <Card
-            img={proj_1}
-            title="Aquarium"
-            desc="A mobile app design for task management."
-            link="https://dribbble.com/shots/17393309-Task-Management-Mobile-App"
-          />
-          <Card
-            img={proj_2}
-            title="Food Finder Mobile App Design"
-            desc="GoEat is a phone navigation app that will aid tourists locate the best authentic local food in the town."
-            link="https://dribbble.com/shots/18408000-Food-Finder-Mobile-App-Design"
-          />
-          <Card
-            img={proj_3}
-            title="SeekKnowledge"
-            desc="A design for a website offering online courses."
-            link="https://dribbble.com/shots/17430547-Online-Course-Website-Design"
-          />
+          {
+            projectsData.map(project => {
+              return (
+                <Card
+                  img={project.img}
+                  title={project.title}
+                  desc={project.desc}
+                  link={project.link}
+                  isClickable={project.isClickable}
+                  />
+              )
+            })
+          }
+          
         </div>
       </div>
     </section>
